@@ -3,7 +3,8 @@ class WelleIo < Formula
   homepage "https://www.welle.io"
   url "https://github.com/AlbrechtL/welle.io/archive/V20170826.tar.gz"
   sha256 "21c65ac35c041d7e1dd1fa609c24c43e01c591fcdfb85369a8229d16a9103a3b"
-
+  head "https://github.com/AlbrechtL/welle.io.git"
+  
   depends_on "cmake" => :build
   depends_on "qt"
   depends_on "fftw"
